@@ -31,13 +31,13 @@ pip install -r requirements.txt
     * Create a PostgreSQL database if you haven't already
     * Update the database connection string in the script ('postgresql://username:password@localhost:1024/mydatabase') with your actual PostgreSQL credentials.
 
-3. Run the Script:
+   ## RUN
+   Run the Script:
     * The main script reads the CSV files, calculates the cumulative distances, classifies the terrain.
        To run this code
         ```
       python task.py
       ```
-      ### Output
      ![coordinates and corrected cordinates](images/map.png)
      ![execution](images/execution.png)
 
@@ -46,6 +46,5 @@ pip install -r requirements.txt
         ```
       python loaddata.py
       ```
-   ### Output
      ![postgress](images/postgress.png)
 
