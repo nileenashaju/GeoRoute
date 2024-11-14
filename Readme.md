@@ -1,6 +1,6 @@
 # GeoRoute
 
-find the latitude and longitude coordinates that are out of continous line and automatically fix the same to form a continuous path and save the final result to a 
+To find the latitude and longitude coordinates that are out of continous line and automatically fix the same to form a continuous path and save the final result to a 
 separate csv file. Plot the coordinates in a map to show the before and after comparison 
 
 ## Requirements
