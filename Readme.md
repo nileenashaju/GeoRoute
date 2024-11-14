@@ -32,4 +32,20 @@ pip install -r requirements.txt
     * Update the database connection string in the script ('postgresql://username:password@localhost:1024/mydatabase') with your actual PostgreSQL credentials.
 
 3. Run the Script:
-    * The main script reads the CSV files, calculates the cumulative distances, classifies the terrain
+    * The main script reads the CSV files, calculates the cumulative distances, classifies the terrain.
+       To run this code
+        ```
+      python task.py
+      ```
+      ### Output
+     ![coordinates and corrected cordinates](images/map.png)
+     ![execution](images/execution.png)
+
+    * The second script is to load the csv files into PostgreSQL and query from the table, list all the points with terrain “road” in it without “civil station”.
+     To run this code
+        ```
+      python loaddata.py
+      ```
+   ### Output
+     ![postgress](images/postgress.png)
+
